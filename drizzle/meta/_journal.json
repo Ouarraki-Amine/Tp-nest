@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1729616196165,
-      "tag": "0000_create-users-table",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1729684508927,
-      "tag": "0001_add-role-to-users",
+      "when": 1730282485580,
+      "tag": "0000_amusing_sir_ram",
       "breakpoints": true
     }
   ]

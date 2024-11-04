@@ -3,10 +3,11 @@ import { drizzle, NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { Pool } from 'pg';
 
 import { CONNECTION_POOL } from './database.module-definition';
-import { users } from './database.schema';
+import { orders, users } from './database.schema';
 
 const dbSchema = {
   users: users,
+  orders: orders,
 };
 
 @Injectable()

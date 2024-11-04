@@ -10,4 +10,5 @@ export const swaggerConfig = new DocumentBuilder()
   })
   .addTag('users', 'Operations about users')
   .addTag('auth', 'Operations about authentication')
+  .addTag('Operations about orders')
   .build();

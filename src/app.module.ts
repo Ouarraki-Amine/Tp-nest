@@ -8,6 +8,7 @@ import { UsersModule } from '@users/users.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { AuthModule } from './auth/auth.module';
         database: configService.get('POSTGRES_DB') || 'postgres',
       }),
     }),
+    OrdersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
